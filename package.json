@@ -2,10 +2,11 @@
   "name": "spotify-api",
   "version": "1.0.0",
   "description": "A full fledged unofficial Spotify API (Does not require any APIKEY)",
-  "main": "/server/index.js",
+  "main": "server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./server/index.js"
+    "start": "node ./server/index.js",
+    "dev": "nodemon ./server/index.js"
   },
   "repository": {
     "type": "git",
